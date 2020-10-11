@@ -1,0 +1,4 @@
+/* person.wxss */
+.person{
+  text-align: center;
+}

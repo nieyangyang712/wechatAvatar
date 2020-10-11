@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/canvas2/canvas2",
+    "pages/index/index",
+    "pages/canvas/canvas",
+    "pages/message/message",
+    "pages/person/person"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "微信图像",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": false,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/message-active.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "我的",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person-active.png"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "color": "#000",
+    "selectedColor": "#0286f1"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

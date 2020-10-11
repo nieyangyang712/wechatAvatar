@@ -1,0 +1,17 @@
+<view class="Index">
+  <view class="shili">
+    <!-- 生成图像挂红旗示例如下 -->
+    <text>生成图像挂红旗示例：</text>
+    <image src="../../images/shili.png"></image>
+  </view>
+  <!-- 首页 -->
+  <view class="select">
+    <text>请选择图像挂红旗方式：</text>
+  </view>
+  <view class="btn1">
+    <button bindtap="bendi">本地头像挂红旗</button>
+  </view>
+  <view class="btn2">
+    <button bindtap="weixin">微信头像挂红旗</button>
+  </view>
+</view>

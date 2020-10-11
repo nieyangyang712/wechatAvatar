@@ -1,0 +1,35 @@
+/* pages/index/index.wxss */
+/* 首页 */
+.Index {
+  width: 100%;
+  height: 100%;
+}
+.Index .shili text {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.Index .shili image {
+  width: 100%;
+}
+/* 选择方式 */
+.Index .select text {
+  margin-left: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.Index .btn1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+}
+.Index .btn2 {
+  padding: 0px 10px;
+}
+.Index .btn1 button, .Index .btn2 button {
+  width: 100%;
+  background-color: green;
+  color: #fff;
+}
