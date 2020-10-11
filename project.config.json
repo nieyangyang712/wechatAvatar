@@ -37,9 +37,9 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.8.3",
+  "libVersion": "2.13.1",
   "appid": "wx787f0f5c257e0d8f",
-  "projectname": "微信头像挂红旗",
+  "projectname": "%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F%E6%8C%82%E7%BA%A2%E6%97%97",
   "debugOptions": {
     "hidedInDevtools": []
   },

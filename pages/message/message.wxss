@@ -2,3 +2,13 @@
 .messages{
   text-align: center;
 }
+.miaosha text {
+  color: red;
+}
+.btn {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.videos {
+  margin-top: 20px;
+}
