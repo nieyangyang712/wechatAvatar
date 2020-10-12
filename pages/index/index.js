@@ -1,5 +1,15 @@
 // pages/index/index.js
 Page({
+  /**
+   * 页面的初始数据
+   */
+  data: {
+    imgUrls: [
+      "../../images/img1.png",
+      "../../images/img2.png"
+    ]
+  },
+
   //本地图片
   bendi() {
     wx.navigateTo({

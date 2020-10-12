@@ -9,7 +9,7 @@
         <input class="weui-input" placeholder="请输入弹幕" bindblur="bindInputBlur" />
       </view>
     </view>
-    <button style="margin:30rpx;" bindtap="bindSendDanmu">发送弹幕</button>
+    <button style="margin:30rpx; background-color: green; color: #fff;" bindtap="bindSendDanmu">发送弹幕</button>
   </view>
 </view>
 <view class="weui-cells weui-cells_after-title">

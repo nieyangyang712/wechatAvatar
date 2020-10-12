@@ -3,7 +3,7 @@
     "pages/canvas2/canvas2",
     "pages/index/index",
     "pages/canvas/canvas",
-    "pages/message/message",
+    "pages/videos/video",
     "pages/person/person"
   ],
   "window": {
@@ -24,10 +24,10 @@
         "selectedIconPath": "images/index-active.png"
       },
       {
-        "pagePath": "pages/message/message",
-        "text": "消息",
-        "iconPath": "images/message.png",
-        "selectedIconPath": "images/message-active.png"
+        "pagePath": "pages/videos/video",
+        "text": "视频",
+        "iconPath": "images/video.png",
+        "selectedIconPath": "images/video-active.png"
       },
       {
         "pagePath": "pages/person/person",

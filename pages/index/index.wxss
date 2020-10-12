@@ -13,6 +13,18 @@
 .Index .shili image {
   width: 100%;
 }
+/* 轮播 */
+.swiper {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image{
+  height: 100%;
+  width: 100%;
+}
+
 /* 选择方式 */
 .Index .select text {
   margin-left: 10px;

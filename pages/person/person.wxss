@@ -1,4 +1,4 @@
-/* person.wxss */
-.person{
+/* pages/persons.wxss */
+.person {
   text-align: center;
 }

@@ -2,7 +2,15 @@
   <view class="shili">
     <!-- 生成图像挂红旗示例如下 -->
     <text>生成图像挂红旗示例：</text>
-    <image src="../../images/shili.png"></image>
+    <!-- <image src="../../images/img1.png"></image> -->
+    <!-- 生成图像挂红旗示例：动态轮播图 -->
+    <swiper class="swiper" indicator-dots="true" autoplay="true" indicator-color="yellow" interval='5000' duration="1000">
+      <block wx:for="{{imgUrls}}" wx:key="item">
+        <swiper-item>
+          <image src="{{item}}"/>
+        </swiper-item>
+      </block>
+    </swiper>
   </view>
   <!-- 首页 -->
   <view class="select">
