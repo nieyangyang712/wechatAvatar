@@ -5,6 +5,7 @@
     "pages/canvas2/canvas2",
     "pages/canvas/canvas",
     "pages/videos/video",
+    "pages/messages/messages",
     "pages/person/person",
     "pages/logs/logs",
     "pages/profile/profile",
@@ -41,6 +42,12 @@
         "text": "视频",
         "iconPath": "images/video.png",
         "selectedIconPath": "images/video-active.png"
+      },
+      {
+        "pagePath": "pages/messages/messages",
+        "text": "消息",
+        "iconPath": "images/message.png",
+        "selectedIconPath": "images/message-active.png"
       },
       {
         "pagePath": "pages/profile/profile",

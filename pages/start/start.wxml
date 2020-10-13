@@ -3,10 +3,10 @@
   <view class="remind-box" wx:if="{{remind}}">
     <image class="remind-img" src="../../assets/more/loading.gif"></image>
   </view>
-  <block wx:else style="position: relative;">
+  <block wx:else>
     <image class="title" src="../../assets/more/title8.png"></image>
     <!-- 动态获取微信头像 -->
-    <button class="click" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" class="click" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
       <image class="clicklogo" src="../../assets/avatar.png"></image>
       <span>点击获取头像</span>
     </button>

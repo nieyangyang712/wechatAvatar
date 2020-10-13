@@ -5,7 +5,6 @@
   <view class="real">
     <image class="n" bindtap="chooseimage" src="../../assets/arrowright.png"></image>
     <image class="a" src="{{userInfoAvatar}}"/>
-
   </view>
 </view>
 <view class="nickName">
@@ -17,10 +16,14 @@
   <view class="real">
    <radio-group class="radio-group" bindchange="radioChange">
      <label class="radio" wx:for="{{items}}" wx:key="items">
-       <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+       <radio value="{{items.value}}" checked="{{item.checked}}"/>{{item.name}}
      </label>
    </radio-group>
   </view>
+</view>
+<view class="area">
+  <text>地区</text>
+  <view class="real">{{country}}</view>
 </view>
 <view class="area">
   <text>地址</text>
@@ -28,6 +31,8 @@
 </view>
 <view class="signature">
   <text>个性签名</text>
-  <view class="real"></view>
+  <view class="real">
+    <!-- <input class="input" maxlength="16" placeholder="最大输入长度16" /> -->
+  </view>
 </view>
 </view>
