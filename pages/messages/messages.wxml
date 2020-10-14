@@ -1,3 +1,6 @@
 <view class="messages">
-  <view>本模块暂未开发，后期敬请关注！</view>
+  <!-- <view>本模块暂未开发，后期敬请关注！</view> -->
+  <view>
+    <button bindtap="choujiang" style="background-color: green; color: #fff;">点击天猫抽奖</button>
+  </view>
 </view>

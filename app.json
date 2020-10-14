@@ -6,6 +6,7 @@
     "pages/canvas/canvas",
     "pages/videos/video",
     "pages/messages/messages",
+    "pages/turntable/turntable",
     "pages/person/person",
     "pages/logs/logs",
     "pages/profile/profile",
